@@ -1,0 +1,25 @@
+.btn-group{
+	display: inline-block;
+	float: right;
+	margin-top: -.3rem;
+}
+
+.btn-group .btn{
+	padding: .65rem .9rem;
+}
+
+@media only screen and (max-width: 1199px) {
+
+	.btn-group .btn{
+		font-size: 12px;
+		padding: .8rem .9rem;
+	}
+}
+
+@media only screen and (max-width: 445px) {
+	
+	.btn-group {
+		width: 100%;
+		text-align: center;
+	}
+}

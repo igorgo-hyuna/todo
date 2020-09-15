@@ -1,0 +1,42 @@
+.todo-list .list-group-item .icons-wrapper {
+	float: right;
+}
+
+.todo-list .list-group-item .icons-wrapper i {
+	padding: 5px 10px;
+	border: solid 2px;
+	border-radius: 3px;
+	cursor: pointer;
+	color: #17a2b8;
+	transition: .2s;
+}
+
+.todo-list .list-group-item .icons-wrapper i:first-child{
+	margin-right: 5px;
+}
+
+.todo-list .list-group-item .icons-wrapper i:last-child{
+	color: #02bb3b;
+}
+
+.todo-list .list-group-item .icons-wrapper i:hover {
+	color: #0a7384;
+}
+
+.todo-list .list-group-item .icons-wrapper i.active {
+	color: #df1f00;
+}
+
+.todo-list .list-group-item .icons-wrapper i:last-child:hover{
+	color: #039630;
+}
+
+.done .todo-list-item{
+	text-decoration: line-through;
+	cursor: pointer;
+}
+
+.important .todo-list-item{
+	font-weight: bold;
+	color: steelblue;
+}
